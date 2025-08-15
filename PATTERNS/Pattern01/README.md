@@ -9,8 +9,8 @@ Commonly used to learn nested loops in C++.
 - Inner loop → prints m stars in each row.
 
 ## Complexity
--Time Complexity: O(n^2)
--Space Complexity: O(1)
+- Time Complexity: O(n^2).
+- Space Complexity: O(1).
 
 
 
