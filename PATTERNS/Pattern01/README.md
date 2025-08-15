@@ -8,4 +8,4 @@ Commonly used to learn nested loops in C++.
 - Outer loop → controls the number of rows.
 - Inner loop → prints m stars in each row.
 
-## Example Output (n=3, m=5)
+## Example Output (row=3, column=5)
