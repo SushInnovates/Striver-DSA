@@ -13,4 +13,4 @@ Each row contains numbers from 1 up to the row number.
 - Space Complexity: O(1)
 
 ## Example Output (n=5)
-<img width="181" height="128" alt="Image" src="https://github.com/user-attachments/assets/42fa9b01-4c2a-4830-bdb8-e3d38e20885e" />
+<img width="196" height="134" alt="Image" src="https://github.com/user-attachments/assets/b1fad323-59bd-453d-a642-f32c8284cb26" />
