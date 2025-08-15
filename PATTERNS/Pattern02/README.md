@@ -8,11 +8,9 @@ The first row contains 1 star, and each subsequent row increases by one star.
 - Outer loop → runs from 1 to n (rows).
 - Inner loop → prints stars equal to the current row number.
 
+##Complexity
+- Time Complexity: o(n^2)
+- Space Complexity:o(1)
+
 ## Example Output (n=5)
-'''
-*
-**
-***
-****
-*****
-'''
+
