@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
+
+    /*
+        pattern 1 -
+        *****
+        *****
+        *****
+     */
     int i,j,row,column;
     cout<<"Enter Rows :";
     cin>>row;
@@ -14,4 +21,5 @@ int main(){
         cout<<endl;
     }
     return 0;
+
 }
