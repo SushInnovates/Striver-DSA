@@ -13,6 +13,7 @@ Instead of using two separate loops (one for increasing and one for decreasing),
 Type 1:
 - Print the increasing triangle using a loop from 1 to n.
 - Print the decreasing triangle using a loop from n down to 1.
+  
 Type 2:
 - Total rows required = 2n - 1.
 - For each row i:
