@@ -18,15 +18,15 @@ int main()
     cout << "Enter N : ";
     cin >> n;
 
-    for (i = 0; i < n; i++)
+    for (i = 1; i <= n; i++)
     {
-        for (j = 0; j < i; j++)
+        for (j = 1; j <= i; j++)
         {
             cout << "*";
         }
         cout << endl;
     }
-    for (i = n; i >= 0; i--)
+    for (i = n-1; i >= 1; i--)
     {
         for (j = 1; j <= i; j++)
         {
@@ -36,3 +36,4 @@ int main()
     }
     return 0;
 }
+
