@@ -19,5 +19,5 @@ This pattern prints numbers in a mirrored fashion with spaces in between
   - Space Complexity: O(1)
 
 ## Example Output (n = 5)
-
+<img width="147" height="140" alt="Image" src="https://github.com/user-attachments/assets/cca22129-0271-4203-8c17-3690a708fa4a" />
     
