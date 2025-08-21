@@ -18,3 +18,4 @@ This pattern prints an alphabet triangle starting from A.
 - Space Complexity: O(1)
 
 ## Example Output (n = 5)
+<img width="182" height="139" alt="Image" src="https://github.com/user-attachments/assets/78b9f9d1-7250-4eb6-8ebc-3868687c738b" />
