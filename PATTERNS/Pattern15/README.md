@@ -3,7 +3,7 @@
 ## Description
 This pattern prints an inverted triangle of alphabets starting from A.
 - The first row contains alphabets from A up to A + (n-1).
-- Each subsequent row reduces the count of alphabets by one.
+- Each subsequent row reduces the last character by one, following the formula A + (n-1-i).
 - The last row contains only A.
 
 ## Logic Summary 
