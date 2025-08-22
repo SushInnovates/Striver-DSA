@@ -17,3 +17,4 @@ This pattern prints an inverted triangle of alphabets starting from A.
 - Space Complexity: O(1)
 
 ## Example Output (n = 5 )
+<img width="185" height="138" alt="Image" src="https://github.com/user-attachments/assets/a18a52fb-18d9-4fdc-a3be-84a3cdad4afa" />
