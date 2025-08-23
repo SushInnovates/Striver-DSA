@@ -2,6 +2,15 @@
 using namespace std;
 int main()
 {
+
+    /*
+    Pattern 16 -
+A
+B B
+C C C
+D D D D
+E E E E E
+*/
     int n, i, j;
     char ch;
     cout << "Enter N:";
