@@ -18,3 +18,4 @@ This pattern prints a triangle where each row contains the same alphabet repeate
 - Space Complexity: O(1)
 
 ## Example Output (n = 5)
+<img width="174" height="139" alt="Image" src="https://github.com/user-attachments/assets/e6e907af-873e-4bc2-a1b6-719267b71d9f" />
