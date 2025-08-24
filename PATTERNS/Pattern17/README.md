@@ -21,4 +21,5 @@ This pattern prints a pyramid of alphabets with palindromic symmetry in each row
 - Time Complexity: O(n²)
 - Space Complexity: O(1)
 
-## Example OutPut (n = 5)
+## Example Output (n = 5)
+<img width="169" height="136" alt="Image" src="https://github.com/user-attachments/assets/4fa48440-5c98-42fd-b63e-7eed50b46a48" />
