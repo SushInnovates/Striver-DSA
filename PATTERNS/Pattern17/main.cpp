@@ -2,6 +2,14 @@
 using namespace std;
 int main()
 {
+    /*
+Pattern 17 -
+    A    
+   ABC
+  ABCDC
+ ABCDEDC
+ABCDEFEDC
+*/
     int n,i,j;
     cout<<"Enter  N: ";
     cin>>n;
