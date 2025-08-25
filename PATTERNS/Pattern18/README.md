@@ -29,7 +29,7 @@ Prints a triangle of alphabets starting from a decreasing character each row, go
 
 ### Example Output (n=5)  
 
-
+<img width="184" height="137" alt="Image" src="https://github.com/user-attachments/assets/810b4018-4a66-448e-8ece-65b623ea5956" />
 
 
 
