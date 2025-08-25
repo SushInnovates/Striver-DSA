@@ -8,15 +8,15 @@ Each program is in its own file (`main1.cpp`, `main2.cpp`), with explanation, lo
 ## Pattern 18 – Reverse Alphabet Triangle (`main1.cpp`)  
 
 ### Description  
-Prints a triangle of alphabets starting from a decreasing character each row, going up to D.
-- The first row starts from D.
-- Each subsequent row shifts the starting character one step backward (C, B, A).
-- Characters in each row are printed sequentially until D.
+Prints a triangle of alphabets starting from a decreasing character each row, going up to last character.
+- The first row starts from E.
+- Each subsequent row shifts the starting character one step backward (D ,C, B, A).
+- Characters in each row are printed sequentially until E.
 ---
 
 ## Logic Summary  
 - Outer loop → runs from 0 to n-1 (controls rows).
-- Inner loop → runs from starting character ('D' - i) up to 'D'.
+- Inner loop → runs from starting character ('E' - i) up to 'E'.
 - The starting character decreases by 1 each row.
 
 ---
