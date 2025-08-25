@@ -63,4 +63,5 @@ Prints a triangle of alphabets starting from a decreasing character each row, go
 
 ---
 
-### Example Output (n=5)  
+### Example Output (n=4)
+<img width="164" height="123" alt="Image" src="https://github.com/user-attachments/assets/7ae1f123-ca50-4d2b-90ed-55e43bcaf053" />
