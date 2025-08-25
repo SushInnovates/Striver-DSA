@@ -36,20 +36,24 @@ Prints a triangle of alphabets starting from a decreasing character each row, go
 
 ---
 
-## Pattern 18 – Inverted Alphabet Triangle (`main2.cpp`)  
+## Pattern 18 – Reverse Alphabet Triangle (Generalized) (`main2.cpp`)  
 
 ### Description  
-Prints an inverted alphabet triangle starting from the last character (`'A' + (n-1)`).  
-Each row starts with decreasing letters but always ends at the last character.  
-
+ Prints a right-angled triangle of alphabets where:
+- The last character of the triangle is always the n-th alphabet (e.g., if n=5 → last char is E).
+- Each row begins with a decreasing character and continues up to the last character.
+- For example, with n=5, the rows start from E, then D, then C, and so on, until A.
 ---
 
 ### Logic Summary  
-
-**Type – 0-based loop**  
-- Calculate `last = 'A' + (n-1)` (last alphabet to print).  
-- Outer loop → runs from `0` to `n-1` (rows).  
-- Inner loop → prints characters from `(last - i)` to `last`.  
+1.  Compute the last character:
+    -  `last = 'A' + (n-1)` (last alphabet to print).  
+2.  Outer loop → runs from `0` to `n-1` (rows).  
+3.  Inner loop → prints characters from `(last - i)` to `last`.
+   - Row 0 → last only
+   - Row 1 → last-1 to last
+   - Row 2 → last-2 to last
+   - … continues until row n-1.
 
 ---
 
