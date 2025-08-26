@@ -28,3 +28,4 @@ Prints a symmetric pattern made of two mirrored triangles (upper and lower part)
 ---
 
 ## Example output (n = 5)
+<img width="221" height="259" alt="Image" src="https://github.com/user-attachments/assets/4380cecd-2130-40be-9e74-3bc9aaeec145" />
