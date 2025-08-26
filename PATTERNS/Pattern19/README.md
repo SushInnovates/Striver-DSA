@@ -16,7 +16,7 @@ Prints a symmetric pattern made of two mirrored triangles (upper and lower part)
 
 - Second half (i = 1 → n):
     - Print i stars → left side.
-    - Print (2*n - 2*i) spaces → middle gap.
+    - Print (2*n - 2) spaces → middle gap.
     - Print i stars → right side.
  
 ---
