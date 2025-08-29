@@ -25,3 +25,4 @@ Prints two mirrored right-angled triangles separated by spaces.
 - Space Complexity: O(1) → constant extra space.
 
 ## Example Output (n = 5)
+<img width="198" height="224" alt="Image" src="https://github.com/user-attachments/assets/2d911ab1-73a4-4809-9104-a7ceed370e49" />
