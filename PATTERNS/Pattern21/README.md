@@ -19,3 +19,4 @@ Prints a square of size n × n where only the border is made of stars, and the i
 - Space Complexity: O(1) → constant extra space.
 
 ## Example Output (n = 5)
+<img width="140" height="132" alt="Image" src="https://github.com/user-attachments/assets/2c6261fc-310b-43c4-b9c8-8497c7891741" />
