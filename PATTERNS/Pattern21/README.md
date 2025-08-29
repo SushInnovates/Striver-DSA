@@ -12,7 +12,7 @@ Prints a square of size n × n where only the border is made of stars, and the i
 
 ### Formula:
 - Border cells: Star
-- Inner cells: Space\
+- Inner cells: Space
 
 ## Complexity
 - Time Complexity: O(n^2) → for traversing all cells.
