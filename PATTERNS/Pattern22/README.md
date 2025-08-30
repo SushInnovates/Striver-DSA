@@ -21,3 +21,4 @@ This pattern prints a square of numbers in concentric layers from n down to 1 an
 - Space Complexity: O(1) → only variables used.
 
 ## Example Output (n = 4)
+<img width="188" height="180" alt="Image" src="https://github.com/user-attachments/assets/c1d08291-6a7c-4067-9132-a30f16b19e83" />
