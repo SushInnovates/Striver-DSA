@@ -7,57 +7,71 @@ int main() {
     vector<int> v;
 
     // Adding elements
-    v.push_back(10);        // Insert at end
-    v.push_back(20);
-    v.emplace_back(30);     // Faster than push_back
-    v.push_back(40);
+    v.push_back(1);          // push_back -> adds element at end
+    v.emplace_back(2);       // emplace_back -> faster, constructs in place
 
-    cout << "Initial vector: ";
-    for (auto x : v) cout << x << " ";
-    cout << endl;
+    // Initializing vector with size and values
+    vector<int> v2(5, 100);  // {100, 100, 100, 100, 100}
 
-    // Accessing elements
-    cout << "Front element: " << v.front() << endl; //returns the first element
-    cout << "Back element: " << v.back() << endl;   //returns the last element
-    cout << "Element at index 2: " << v[2] << endl; //returns the specific element from the vector
+    // Copying vector
+    vector<int> v3(v2);      // Copy constructor
 
-    // Size of vector
-    cout << "Size of vector: " << v.size() << endl; //returns the size of the vector
-
-    // Iterating using index
-    cout << "Iteration (index): ";
+    // Iterating through vector
+    cout << "Elements in v: ";
     for (int i = 0; i < v.size(); i++) {
         cout << v[i] << " ";
     }
     cout << endl;
 
-    // Iterating using iterator
-    cout << "Iteration (iterator): ";
-    for (auto it = v.begin(); it != v.end(); it++) {
+    // Using iterators
+    cout << "Using iterator on v2: ";
+    for (vector<int>::iterator it = v2.begin(); it != v2.end(); it++) {
         cout << *it << " ";
     }
     cout << endl;
 
-    // Iterating using range-based loop
-    cout << "Iteration (range-based): ";
-    for (auto x : v) {
-        cout << x << " ";
-    }
+    // Range-based for loop
+    cout << "Range-based loop on v3: ";
+    for (auto x : v3) cout << x << " ";
     cout << endl;
 
-    // Removing last element
-    v.pop_back();   //removes the last element
-    cout << "After pop_back: "; 
+    // Insert function
+    v.insert(v.begin(), 10);         // Insert 10 at beginning
+    v.insert(v.begin() + 1, 2, 20);  // Insert 20 two times at index 1
+    cout << "After insert: ";
     for (auto x : v) cout << x << " ";
     cout << endl;
 
-    // Checking empty
-    cout << "Is vector empty? " << (v.empty() ? "Yes" : "No") << endl;
+    // Erase function
+    v.erase(v.begin());              // Remove first element
+    if (v.size() >= 2)
+        v.erase(v.begin(), v.begin() + 2);  // Remove first 2 elements
+    cout << "After erase: ";
+    for (auto x : v) cout << x << " ";
+    cout << endl;
 
-    // Clearing vector
-    v.clear();
-    cout << "Vector cleared. Size: " << v.size() << endl;
-    cout << "Is vector empty now? " << (v.empty() ? "Yes" : "No") << endl;
+    // Assign function (copying values)
+    vector<int> v4;
+    v4.assign(v2.begin(), v2.end()); // Copy elements from v2
+    cout << "v4 after assign (copied from v2): ";
+    for (auto x : v4) cout << x << " ";
+    cout << endl;
+
+    // Other functions
+    cout << "Front: " << v2.front() << endl;
+    cout << "Back: " << v2.back() << endl;
+    cout << "Size: " << v2.size() << endl;
+    cout << "Capacity: " << v2.capacity() << endl;
+
+    // Pop back
+    v2.pop_back();
+    cout << "After pop_back: ";
+    for (auto x : v2) cout << x << " ";
+    cout << endl;
+
+    // Clear
+    v2.clear();
+    cout << "Size after clear: " << v2.size() << endl;
 
     return 0;
 }
