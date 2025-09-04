@@ -63,6 +63,27 @@ int main() {
     cout << "Size: " << v2.size() << endl;
     cout << "Capacity: " << v2.capacity() << endl;
 
+    // Iteration using rbegin() & rend()
+    cout << "Vector in reverse using rbegin/rend: ";
+    for (auto it = v.rbegin(); it != v.rend(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // Iteration using cbegin() & cend() (read-only)
+    cout << "Vector using cbegin/cend: ";
+    for (auto it = v.cbegin(); it != v.cend(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // Iteration using crbegin() & crend() (read-only reverse)
+    cout << "Vector using crbegin/crend: ";
+    for (auto it = v.crbegin(); it != v.crend(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
     // Pop back
     v2.pop_back();
     cout << "After pop_back: ";
@@ -75,3 +96,4 @@ int main() {
 
     return 0;
 }
+
