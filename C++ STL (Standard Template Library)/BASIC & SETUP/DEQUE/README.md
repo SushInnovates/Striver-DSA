@@ -49,5 +49,5 @@ deque<int> dq;
 ```
 ## 🔹Example
 ```
-deque <int> D;
+deque <int> D1;
 ```
