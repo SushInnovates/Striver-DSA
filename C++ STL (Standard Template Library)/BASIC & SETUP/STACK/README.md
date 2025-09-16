@@ -39,7 +39,7 @@
 
 ## 🔹 Syntax
 ```cpp
-#include <deque>
+#include <stack>
 stack<int> dq;
 ```
 ## 🔹Example
