@@ -40,7 +40,7 @@
 ## 🔹 Syntax
 ```cpp
 #include <stack>
-stack<int> dq;
+stack<int> d;
 ```
 ## 🔹Example
 ```
