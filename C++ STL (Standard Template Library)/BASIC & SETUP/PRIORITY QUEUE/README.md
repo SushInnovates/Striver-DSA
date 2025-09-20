@@ -17,13 +17,13 @@ It is defined in the `<queue>` header.
 ---
 ## 🔹 Commmon Functions
 ```
-- pq.push(x) → Insert element
-- pq.emplace(x) → Construct & insert element
-- pq.top() → Access top element (max or min)
-- pq.pop() → Remove top element
- - pq.size() → Get number of elements
- -pq.empty() → Check if queue is empty
- -pq.swap(other) → Swap contents with another queue
+1. pq.push(x) → Insert element
+2. pq.emplace(x) → Construct & insert element
+3. pq.top() → Access top element (max or min)
+4. pq.pop() → Remove top element
+5. pq.size() → Get number of elements
+6. pq.empty() → Check if queue is empty
+7. pq.swap(other) → Swap contents with another queue
 ```
 
 ## 🔹 Summary
