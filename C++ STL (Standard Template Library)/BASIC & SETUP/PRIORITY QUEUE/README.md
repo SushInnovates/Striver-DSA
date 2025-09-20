@@ -20,7 +20,7 @@ It is defined in the `<queue>` header.
 - pq.push(x) → Insert element
 - pq.emplace(x) → Construct & insert element
 - pq.top() → Access top element (max or min)
-pq.pop() → Remove top element
+- pq.pop() → Remove top element
 pq.size() → Get number of elements
 pq.empty() → Check if queue is empty
 pq.swap(other) → Swap contents with another queue
