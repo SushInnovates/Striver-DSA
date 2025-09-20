@@ -23,7 +23,7 @@ It is defined in the `<queue>` header.
 - pq.pop() → Remove top element
  - pq.size() → Get number of elements
  -pq.empty() → Check if queue is empty
-pq.swap(other) → Swap contents with another queue
+ -pq.swap(other) → Swap contents with another queue
 ```
 
 ## 🔹 Summary
