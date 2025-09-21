@@ -13,7 +13,6 @@ It is implemented using **balanced BST (Red-Black Tree)**.
 
 ---
 
-## 🔹 Summary
 
 ## 🔹 Common Function
 ```
@@ -32,6 +31,13 @@ It is implemented using **balanced BST (Red-Black Tree)**.
 | `clear()`        | Removes all elements                           |
 
 ```
+## 🔹 Summary
+
+- Set stores unique elements in sorted order.
+- Provides logarithmic complexity (O(log n)) for insertion, deletion, and search.
+- Useful for problems requiring uniqueness + sorted structure.
+
+
 ## 🔹 Syntax
 ```
 set<data_type> setName;
