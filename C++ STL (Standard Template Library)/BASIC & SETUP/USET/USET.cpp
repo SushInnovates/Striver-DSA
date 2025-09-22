@@ -9,7 +9,7 @@ int main() {
 
 
     
-    // than set in most cases, except some when collision happens
+    
     
     // Insert elements
     us.insert(10);
@@ -51,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
