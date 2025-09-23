@@ -50,4 +50,9 @@ map<key_type,value_type>mp;
 ## 🔹 Example
 ```
 map<int,string>mp;
+
+map<int, int> mpp;
+mpp[1] = 2;
+mpp.emplace(3, 1);
+
 ```
