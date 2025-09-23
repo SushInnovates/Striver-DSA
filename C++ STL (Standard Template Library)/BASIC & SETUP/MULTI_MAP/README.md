@@ -1,13 +1,13 @@
-# 📘 Map in C++ STL
+# 📘 MultiMap in C++ STL
 
-## 🔹 What is a Map?
+## 🔹 What is a MultiMap?
 - A multimap is an associative container in C++ STL that stores elements as key-value pairs.
 Unlike map, a multimap allows duplicate keys.
 - Defined in the `<map>` header.
 
 ---
 
-## 🔹 Why use Map?
+## 🔹 Why use MultiMap?
 - To store multiple values for the same key.
 - Useful when keys are not unique but you still want ordered storage.
 - Supports operations like insertion, deletion, search, and range queries efficiently.
