@@ -91,6 +91,7 @@ int main() {
     if (ub2 == mpp4.end())
         cout << "Upper bound of 5 does not exist (points to end)." << endl;
 
-        
+        //eraase, swap, size, empty, are same as prevoius/above
     return 0;
 }
+
