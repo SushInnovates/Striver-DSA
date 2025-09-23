@@ -13,3 +13,13 @@
 - Example : Storing Student roll numbers(keys) with their names (values)
 
 ---
+## 🔹 Summary
+- Stores key-value pairs (key -> value).
+- Keys are unique and automatically sorted.
+- Supports common operations: insert(), emplace(), find(), erase(), count(), lower_bound(), upper_bound().
+- Can have pair as key or pair as value.
+- o(log n)
+- Balanced BST (Red-Black tree).
+- Used when we need sorted key-value pairs.
+-  Supports iteration using iterators (begin(), end()).
+---
