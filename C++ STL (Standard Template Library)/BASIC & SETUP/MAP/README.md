@@ -6,3 +6,10 @@
 -  Internally implemented using a self-balancing BST (Red-Black tree).
 -  Defined in the `<map>` header.
 ---
+## 🔹 What use a Map?
+- Provides fast Searching, insertion and deletion in o(log n).
+- Maintains sorted order of keys automatically.
+- useful when we want to associate unique identifiers(keys) with values(like dictionaries).
+- Example : Storing Student roll numbers(keys) with their names (values)
+
+---
