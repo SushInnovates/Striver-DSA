@@ -23,3 +23,31 @@
 - Used when we need sorted key-value pairs.
 -  Supports iteration using iterators (begin(), end()).
 ---
+
+## 🔹 Common Functions
+```
+| Function           | Description                                 | Example                                  |
+| ------------------ | ------------------------------------------- | ---------------------------------------- |
+| `insert()`         | Inserts a key-value pair                    | `mp.insert({2, 20});`                    |
+| `emplace()`        | Inserts in-place (faster)                   | `mp.emplace(3, 30);`                     |
+| `find(key)`        | Returns iterator to key                     | `auto it = mp.find(2);`                  |
+| `count(key)`       | Checks if key exists                        | `mp.count(2)` → 1 if exists, 0 otherwise |
+| `erase(key)`       | Removes element by key                      | `mp.erase(2);`                           |
+| `erase(iterator)`  | Removes element at iterator                 | `mp.erase(it);`                          |
+| `lower_bound(key)` | Returns iterator to first element **≥ key** | `mp.lower_bound(2);`                     |
+| `upper_bound(key)` | Returns iterator to first element **> key** | `mp.upper_bound(2);`                     |
+| `size()`           | Returns number of elements                  | `mp.size();`                             |
+| `empty()`          | Checks if map is empty                      | `mp.empty();`                            |
+
+```
+---
+
+## 🔹 Syntax
+```
+map<key_type,value_type>mp;
+```
+
+## 🔹 Example
+```
+map<int,string>mp;
+```
