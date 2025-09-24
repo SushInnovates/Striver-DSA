@@ -47,5 +47,5 @@ unordered_map<KeyType, ValueType> name;
 ---
 ## 🔹 Example
 ```
-multimap<int, string> mp;
+    unordered_map<int, string> ump;
 ```
