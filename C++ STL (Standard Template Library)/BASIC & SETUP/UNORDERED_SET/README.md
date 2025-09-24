@@ -15,18 +15,17 @@
 ---
 ## 🔹Common Function
 ```
-| Function            | Description                                    |
-| ------------------- | ---------------------------------------------- |
-| `insert()`          | Insert a key-value pair                        |
-| `erase(key)`        | Remove all elements with the given key         |
-| `find(key)`         | Returns iterator to **first element** with key |
-| `count(key)`        | Returns number of elements with the key        |
-| `lower_bound(key)`  | Iterator to **first element >= key**           |
-| `upper_bound(key)`  | Iterator to **first element > key**            |
-| `begin() / end()`   | Iterator to start/end                          |
-| `rbegin() / rend()` | Reverse iterator to start/end                  |
-| `size()`            | Returns number of elements                     |
-| `empty()`           | Checks if multimap is empty                    |
+| Function               | Description                                                   |
+| ---------------------- | ------------------------------------------------------------- |
+| `insert({key, value})` | Insert key-value pair                                         |
+| `erase(key)`           | Erase element with given key                                  |
+| `find(key)`            | Returns iterator to element with key, or `end()` if not found |
+| `count(key)`           | Returns 1 if key exists, 0 otherwise                          |
+| `begin() / end()`      | Iterator to start/end                                         |
+| `size()`               | Number of elements                                            |
+| `empty()`              | Checks if container is empty                                  |
+| `clear()`              | Removes all elements                                          |
+
 
 ```
 ---
