@@ -40,8 +40,6 @@
 ## 🔹 Syntax
 ```
 unordered_map<KeyType, ValueType> name;
-
-
 ```
 ---
 ## 🔹 Example
