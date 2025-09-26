@@ -8,6 +8,11 @@ bool comp(pair<int,int> a, pair<int,int> b) {
 }
 
 int main() {
+
+    // sort it according to second element
+// if second element is asme, then sort
+// it according to first element but in descending
+    
     // Sorting an array
     int arr[] = {5, 2, 8, 1, 3};
     int n = 5;
@@ -47,3 +52,4 @@ int main() {
 
     return 0;
 }
+
