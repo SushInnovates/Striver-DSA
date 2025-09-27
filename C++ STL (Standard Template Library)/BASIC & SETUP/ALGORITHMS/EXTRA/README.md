@@ -63,6 +63,9 @@ do {
 ```
 ---
 ## 🔹 Example 
+
+
+## 🔹Note
 ```
 (it is implemented on previous algorithms like pair vector etc)
 ```
