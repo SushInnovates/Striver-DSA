@@ -62,4 +62,7 @@ do {
 } while (next_permutation(s.begin(), s.end()));
 ```
 ---
-## 🔹 Example
+## 🔹 Example 
+```
+(it is implemented on previous algorithms like pair vector etc)
+```
