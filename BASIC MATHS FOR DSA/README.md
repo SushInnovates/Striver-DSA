@@ -50,9 +50,10 @@ The following topics are covered based on Striver’s "Basic Maths for DSA" seri
 
 ## 📚 References
 - [Striver’s YouTube Playlist: Basic Maths for DSA](https://youtu.be/XYZ)  
-- [CP Algorithms](https://cp-algorithms.com/)  
-- Competitive Programming textbooks and blogs.
+
+- ChatGPT.
 
 ---
 
 **This folder is essential for mastering the mathematical skills required for DSA and competitive programming.**
+
