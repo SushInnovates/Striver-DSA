@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int DC()
+int DigitCount()
 {
     int count = 0;
     int number;
@@ -23,5 +23,6 @@ int DC()
 int main()
 {
 
-    DC();
+    DigitCount();
 }
+
