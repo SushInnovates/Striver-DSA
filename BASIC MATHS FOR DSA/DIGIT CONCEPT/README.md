@@ -33,17 +33,12 @@ This folder contains solutions for counting the total number of digits in a give
 ---
 
 ## ⏱️ Time & Space Complexity
-**Time Complexity :**O(log₁₀ N)
+**Time Complexity :** O(log₁₀ N)
+**Space Complexity :** O(N)
 
 ---
 
-## 📂 Files
-| File Name | Description |
-|------------|-------------|
-| `DigitCount2.cpp` | Count digits using logarithmic method |
-| `DigitCount1.cpp` | Count digits using iterative division method |
 
----
 
 ## 🏁 Conclusion
 Both methods are efficient for counting digits —  
