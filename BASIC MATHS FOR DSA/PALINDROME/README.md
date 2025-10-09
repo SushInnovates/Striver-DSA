@@ -20,5 +20,12 @@ A **Palindrome Number** is a number that remains **the same when its digits are 
 
 ---
 
-### 🧩 **Code Example**
+### 🧩 **Time Complexity*
+```
+| Type      | Complexity | Explanation                    |
+| --------- | ---------- | ------------------------------ |
+| **Time**  | O(log₁₀ N) | Loop runs once for each digit. |
+| **Space** | O(1)       | Only a few variables used.     |
+```
+
 
