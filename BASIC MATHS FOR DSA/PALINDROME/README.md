@@ -20,7 +20,7 @@ A **Palindrome Number** is a number that remains **the same when its digits are 
 
 ---
 
-### 🧩 **Time Complexity*
+### 🧩 **Time Complexity**
 ```
 | Type      | Complexity | Explanation                    |
 | --------- | ---------- | ------------------------------ |
@@ -28,12 +28,12 @@ A **Palindrome Number** is a number that remains **the same when its digits are 
 | **Space** | O(1)       | Only a few variables used.     |
 ```
 
-### 🧩 **Key Observations*
+### 🧩 **Key Observations**
 - Works for positive integers.
 - Negative numbers are not palindrome (e.g., -121 ≠ 121-).
 - Based on reverse number logic, similar to the previous topic.
 
-### 🧾 **Summary*
+### 🧾 **Summary**
 - Builds on the logic of reversing a number
 - Compares reversed & original number
 - Simple and essential logic in interview questions
