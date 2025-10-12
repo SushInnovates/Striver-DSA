@@ -5,7 +5,7 @@ void PrintDivisors(int n)
 {
     vector<int> ls;
     // 6 * 6 <= 36
-    // 7 * 7 <= 49
+    // 7 * 7 <= 36 false
     for (int i = 1; i * i <= n; i++) /* use i*i <= n for time complexity ,sqrt(n) is a
         inbuilt function so it will call each time so  its time complexity will be high*/
 
