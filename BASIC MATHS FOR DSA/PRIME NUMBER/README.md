@@ -23,4 +23,22 @@ This reduces unnecessary iterations and makes the algorithm efficient.
 
 ---
 
-## 🧩 
+## 🧩 Summary
+```
+| Property             | Description                                         |
+| -------------------- | --------------------------------------------------- |
+| **Concept**          | Prime Number check using optimized divisor counting |
+| **Technique**        | Loop till √N, count unique divisors                 |
+| **Time Complexity**  | O(√N)                                               |
+| **Space Complexity** | O(1)                                                |
+| **Efficiency**       | Faster than checking all numbers up to N            |
+
+```
+---
+
+## 🧮 Time Complexity
+
+- **O(√N)** → because we only iterate till the square root of the number.  
+- **Space Complexity:** **O(1)** → constant space used.
+
+---
