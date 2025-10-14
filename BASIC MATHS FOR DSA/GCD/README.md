@@ -1,5 +1,5 @@
 # 💠 GCD (Greatest Common Divisor)
-
+## 📘 Introduction
 This program calculates the **GCD (Greatest Common Divisor)** of two numbers using the **Euclidean Algorithm** — one of the most efficient and fundamental algorithms in mathematics and DSA.
 
 ---
@@ -15,6 +15,29 @@ For example:
 
 ---
 
+## ⚡ Euclidean Algorithm
+
+## 🧠 Concept
+The **Euclidean Algorithm** is a very efficient method to compute the GCD based on the principle that:
+> The GCD of two numbers `a` and `b` is the same as the GCD of `b` and `a % b`.
+
+That means:
+gcd(a, b) = gcd(b, a % b)
+```
+until `b` becomes 0, then  
+
+```
+
+## Example
+```
+a = 48, b = 18
+
+Step 1: gcd(48, 18) → gcd(18, 48 % 18) = gcd(18, 12)
+Step 2: gcd(18, 12) → gcd(12, 18 % 12) = gcd(12, 6)
+Step 3: gcd(12, 6) → gcd(6, 12 % 6) = gcd(6, 0)
+Answer: GCD = 6
+
+```
 ## ⚙️ Logic Used — Euclidean Algorithm
 
 1. If `a > b`, replace `a` with `a % b`.  
@@ -23,8 +46,6 @@ For example:
 4. The non-zero value is the **GCD**.
 
 This algorithm works because the GCD of two numbers doesn’t change if the **larger number is replaced by its remainder when divided by the smaller one**.
-
----
 
 ---
 
@@ -46,3 +67,7 @@ This algorithm works because the GCD of two numbers doesn’t change if the **la
 | **Use Case**         | Foundational for LCM, number theory, and cryptography   |
 
 ```
+## 🧠 Key Takeaways
+-  Euclidean Algorithm is the fastest way to compute GCD.
+-  Works for both positive integers and large values efficiently.
+-  Recursive and Iterative methods give the same result, only differing in implementation.
