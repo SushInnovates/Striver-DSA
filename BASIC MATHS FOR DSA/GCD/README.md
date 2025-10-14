@@ -22,8 +22,8 @@ The **Euclidean Algorithm** is a very efficient method to compute the GCD based 
 > The GCD of two numbers `a` and `b` is the same as the GCD of `b` and `a % b`.
 
 That means:
-gcd(a, b) = gcd(b, a % b)
 ```
+gcd(a, b) = gcd(b, a % b)
 until `b` becomes 0, then  
 
 ```
