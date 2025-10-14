@@ -26,5 +26,23 @@ This algorithm works because the GCD of two numbers doesn’t change if the **la
 
 ---
 
-## 🧩 Example
+---
 
+## 🧮 Time Complexity
+
+- **O(log(min(a, b)))** → very efficient due to the Euclidean property.  
+- **Space Complexity:** **O(1)** → constant space.
+
+---
+## 📘 Summary
+```
+| Property             | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| **Concept**          | Greatest Common Divisor (GCD) using Euclidean Algorithm |
+| **Alternate Name**   | HCF (Highest Common Factor)                             |
+| **Time Complexity**  | O(log(min(a, b)))                                       |
+| **Space Complexity** | O(1)                                                    |
+| **STL Function**     | `gcd(a, b)` in `<numeric>` header                       |
+| **Use Case**         | Foundational for LCM, number theory, and cryptography   |
+
+```
