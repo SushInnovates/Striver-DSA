@@ -15,6 +15,6 @@ int main(){
     cin>>n;
     
     int digit = Count(n);
-    cout<<"Number if digits : "<<digit<<endl;
+    cout<<"Number of digits : "<<digit<<endl;
     return 0;
 }
